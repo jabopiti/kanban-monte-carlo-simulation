@@ -14,7 +14,7 @@ Further thoughts on Agile metrics and #NoEstimates (with a focus on how to colle
 ## HOW - Building a Monte Carlo Simulation Based on Historical Throughput Data
 The idea is to use [Monte Carlo Simulation](https://simple.wikipedia.org/wiki/Monte_Carlo_algorithm) based on historical throughput data to determine a probable range of delivery dates or of total items completed.
 
-## WHAT
+## WHAT - Using the Simulation Results to Enrich Decision-Making
 In this repository are two Jupyter Notebooks. Each of them generates a notebook calculating the throughput and running a monte carlo simulation to determine how many items can be completed in a given time range or when a given scope of items can be completed. The result of a monte carlo simulation is a visualiziation mapping the probability and the outcome.
 
 The notebook represents a decision-making basis to determine the risk a team/management wants to take to achieve a specific outcome. A 70% probability is risky, a 85% probability is moderate, and a 95% probability is the safe option.
@@ -25,8 +25,8 @@ Conditions:
 * You need a instance of Jupyter Notebook and Python >3.6 to run the notebooks
 * The notebooks use data extracted from Jira with [Jira-to-Analytics](https://github.com/ActionableAgile/jira-to-analytics).
 
-### Kanban-Monte_Carlo-How-Many
+### Kanban-Monte_Carlo-How-Many.ipynb
 Determine how many items can be completed in a given time range.
 
-### Kanban-Monte_Carlo-When
+### Kanban-Monte_Carlo-When.ipynb
 Determine when a given scope of items can be completed.
