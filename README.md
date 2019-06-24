@@ -30,3 +30,6 @@ Determine how many items can be completed in a given time range.
 
 ### Kanban-Monte_Carlo-When.ipynb
 Determine when a given scope of items can be completed.
+
+## License
+MIT
